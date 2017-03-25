@@ -12,8 +12,8 @@
 
 const chalk = require('chalk');
 const webpack = require('webpack');
-const clearConsole = require('react-dev-utils/clearConsole');
-const formatWebpackMessages = require('react-dev-utils/formatWebpackMessages');
+const clearConsole = require('@gborg/react-dev-utils/clearConsole');
+const formatWebpackMessages = require('@gborg/react-dev-utils/formatWebpackMessages');
 
 const isInteractive = process.stdout.isTTY;
 let handleCompile;
